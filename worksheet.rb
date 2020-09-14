@@ -121,7 +121,7 @@ driver_records = {
     ]
 }
 
-# Use an iteration blocks to print the following answers:
+# - the number of rides each driver has given
 def sum_rides(rides_list)
   rides_list.each do |driver, trip|
     puts "#{driver} gave #{trip.length} rides"
